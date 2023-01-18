@@ -18,7 +18,7 @@ const NavBar = () => {
         <div>
           <ul>
             <Link href="/">
-              <li>Home</li>
+              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
           </ul>
         </div>
