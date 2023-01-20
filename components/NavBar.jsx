@@ -1,9 +1,7 @@
-import Home from '@/pages';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-
-import NavLogo from '../public/assets/navLogo.png';
+import { AiOutlineClose } from 'react-icon/ai';
 
 const NavBar = () => {
   return (
@@ -37,6 +35,9 @@ const NavBar = () => {
               </li>
             </Link>
           </ul>
+          <div>
+            <AiOutlineClose />
+          </div>
         </div>
       </div>
     </div>
