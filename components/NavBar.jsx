@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import NavLogo from '../public/assets/navLogo.png';
 
 const NavBar = () => {
@@ -84,6 +85,11 @@ const NavBar = () => {
               <p className="uppercase tracking-widest text-#5651e5">
                 Let's Connect
               </p>
+              <div>
+                <div>
+                  <FaLinkedinIn />
+                </div>
+              </div>
             </div>
           </div>
         </div>
