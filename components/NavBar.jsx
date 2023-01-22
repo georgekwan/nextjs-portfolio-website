@@ -62,6 +62,13 @@ const NavBar = () => {
               </p>
             </div>
           </div>
+          <div>
+            <ul>
+              <Link href="/">
+                <li className="py-4 text-sm">Home</li>
+              </Link>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
