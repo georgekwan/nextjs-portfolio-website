@@ -86,7 +86,7 @@ const NavBar = () => {
                 Let's Connect
               </p>
               <div>
-                <div>
+                <div className="rounded-full shadow-lg shadow-gray-400">
                   <FaLinkedinIn />
                 </div>
               </div>
