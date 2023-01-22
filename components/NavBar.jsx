@@ -44,7 +44,7 @@ const NavBar = () => {
               </li>
             </Link>
           </ul>
-          <div className="md:hidden">
+          <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
           </div>
         </div>
@@ -60,7 +60,10 @@ const NavBar = () => {
                 height="35"
                 alt="/"
               />
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
+              <div
+                onClick={handleNav}
+                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+              >
                 <AiOutlineClose />
               </div>
             </div>
