@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
 import NavLogo from '../public/assets/navLogo.png';
 
 const NavBar = () => {
@@ -90,13 +91,13 @@ const NavBar = () => {
                   <FaLinkedinIn />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
+                  <FaGithub />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
+                  <AiOutlineMail />
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
+                  <BsFillPersonLinesFill />
                 </div>
               </div>
             </div>
