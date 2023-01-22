@@ -51,7 +51,9 @@ const NavBar = () => {
       </div>
       {/* Mobile Menu */}
       <div
-        className={nav ? 'fixed left-0 top-0 w-full h-screen bg-black/70' : ''}
+        className={
+          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+        }
       >
         {/* Side Drawer Menu */}
         <div
