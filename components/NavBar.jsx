@@ -63,7 +63,7 @@ const NavBar = () => {
             </div>
           </div>
           <div>
-            <ul>
+            <ul className="uppercase">
               <Link href="/">
                 <li className="py-4 text-sm">Home</li>
               </Link>
