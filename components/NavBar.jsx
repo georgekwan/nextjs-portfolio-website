@@ -16,12 +16,7 @@ const NavBar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <image
-          src="/../public/assets/navLogo.png"
-          alt="/"
-          width="125"
-          height="50"
-        />
+        <Image src="/assets/navLogo.png" alt="/" width="125" height="50" />
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -49,13 +44,12 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-      {/* Mobile Menu */}
+
       <div
         className={
           nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
         }
       >
-        {/* Side Drawer Menu */}
         <div
           className={
             nav
@@ -65,12 +59,7 @@ const NavBar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                src="/../public/assets/navLogo.png"
-                width="87"
-                height="35"
-                alt="/"
-              />
+              <Image src="/assets/navLogo.png" width="87" height="35" alt="/" />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
