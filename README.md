@@ -36,4 +36,9 @@ This project uses the following dependencies:
 
 This project also uses the following dev dependencies:
 
-- [Autoprefix
+- Next.js
+- React
+- React-dom
+- Tailwind CSS
+- react-icons
+- eslint
