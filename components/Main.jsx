@@ -19,6 +19,9 @@ const Main = () => {
             curiosity, and creating an interesting and fulfilling life. He is
             adaptable and ready for unexpected changes.
           </p>
+          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+            <div></div>
+          </div>
         </div>
       </div>
     </div>
