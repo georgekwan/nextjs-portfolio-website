@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 const Main = () => {
   return (
@@ -20,7 +21,9 @@ const Main = () => {
             adaptable and ready for unexpected changes.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div></div>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
+              <FaLinkedinIn />
+            </div>
           </div>
         </div>
       </div>
