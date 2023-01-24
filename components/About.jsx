@@ -8,15 +8,15 @@ const About = () => {
           <p className="uppercase text-xl tracking-widest text-[#FF4C29]">
             About
           </p>
-          <h2>Who I Am</h2>
-          <p>
+          <h2 className="py-4">Who I Am</h2>
+          <p className="py-2 text-[#334756]">
             Meet George, an ambitious and friendly full-stack developer with a
             background in project management. He approaches life with a "Live
             Life Like A Movie" attitude, meaning he takes risks, follows his
             curiosity, and lives life on his own terms. He is adaptable and
             ready for unexpected changes.
           </p>
-          <p>
+          <p className="py-2 text-[#334756]">
             George has a deep-seated love of coding, just like someone who goes
             to the gym regularly to lift weights. He has a keen eye for detail,
             strong analytical skills, and a natural problem-solving ability,
@@ -27,7 +27,7 @@ const About = () => {
             approaches tasks with purpose and precision, similar to someone who
             is dedicated to hitting their fitness goals.
           </p>
-          <p>
+          <p className="py-2 text-[#334756]">
             In his free time, George enjoys exploring new things, experiencing
             different cultures, and having fun. He loves traveling and going on
             adventures and is skilled at whitewater paddleboarding and
@@ -39,7 +39,9 @@ const About = () => {
             more about George's skills and experience, don't hesitate to reach
             out to him!
           </p>
-          <p>Check out some of my latest projects.</p>
+          <p className="py-2 text-[#334756] underline cursor-pointer">
+            Check out some of my latest projects.
+          </p>
         </div>
         <div>
           <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
