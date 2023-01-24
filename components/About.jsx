@@ -39,7 +39,9 @@ const About = () => {
           </p>
           <p>Check out some of my latest projects.</p>
         </div>
-        <div></div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+        </div>
       </div>
     </div>
   );
