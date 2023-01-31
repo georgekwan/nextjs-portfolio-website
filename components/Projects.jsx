@@ -18,7 +18,8 @@ const Projects = () => {
               src={propertyImg}
               alt="/"
             />
-            <div>
+
+            <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
               <h3>House Marketplace</h3>
               <p>React JS</p>
               <Link href="/">
