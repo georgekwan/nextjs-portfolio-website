@@ -20,10 +20,14 @@ const Projects = () => {
             />
 
             <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-              <h3>House Marketplace</h3>
-              <p>React JS</p>
+              <h3 className="text-2x1 text-white tracking-wider text-center">
+                House Marketplace
+              </h3>
+              <p className="pb-4 pt-2 text-white text-center">React JS</p>
               <Link href="/">
-                <p>More Info</p>
+                <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
+                  More Info
+                </p>
               </Link>
             </div>
           </div>
