@@ -17,7 +17,14 @@ const Projects = () => {
               className="rounded-xl group-hover:opacity-10"
               src={propertyImg}
               alt="/"
-            ></Image>
+            />
+            <div>
+              <h3>House Marketplace</h3>
+              <p>React JS</p>
+              <Link href="/">
+                <p>More Info</p>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
