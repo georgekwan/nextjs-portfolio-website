@@ -10,10 +10,14 @@ const Projects = () => {
         <p className="text-xl tracking-widest uppercase text-[#FF4C29]">
           Projects
         </p>
-        <h2 className="py-4">What I've Built</h2>
+        <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#FF4C29] to-[#c35714fc]">
-            <Image src={propertyImg} alt="/"></Image>
+            <Image
+              className="rounded-xl group-hover:opacity-10"
+              src={propertyImg}
+              alt="/"
+            ></Image>
           </div>
         </div>
       </div>
