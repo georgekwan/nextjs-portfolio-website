@@ -1,7 +1,10 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 const Contact = () => {
   return (
@@ -92,6 +95,9 @@ const Contact = () => {
                     rows="10"
                   ></textarea>
                 </div>
+                <button className="w-full p-4 text-gray-100 mt-4">
+                  Send Message
+                </button>
               </form>
             </div>
           </div>
