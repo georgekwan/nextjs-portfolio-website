@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import propertyImg from '../public/assets/projects/property.jpg';
+import propertyImg from '../public/assets/projects/property.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -14,7 +14,7 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property Finder"
+            title="Hockey Trainer"
             backgroundImg={propertyImg}
             projectUrl="/property"
           />
