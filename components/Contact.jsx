@@ -18,6 +18,18 @@ const Contact = () => {
                   alt="/"
                 />
               </div>
+              <div>
+                <h2 className="py-2">Name here</h2>
+                <p>Full-Stack Developer</p>
+                <p>
+                  I am available for freelance or full-time position. Contact me
+                  and let's talk.
+                </p>
+              </div>
+            </div>
+            <div>
+              <p className="uppercase pt-8">Connect With Me</p>
+              <div></div>
             </div>
           </div>
         </div>
