@@ -19,7 +19,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Name here</h2>
+                <h2 className="py-2">George Kwan</h2>
                 <p>Full-Stack Developer</p>
                 <p>
                   I am available for freelance or full-time position. Contact me
