@@ -19,25 +19,21 @@ const NavBar = () => {
         <Image src="/assets/george-kwan.png" alt="/" width="55" height="50" />
         <div>
           <ul className="hidden md:flex">
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
-            </Link>
-            <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
-            </Link>
-            <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
-            </Link>
-            <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Projects
-              </li>
-            </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Contact
-              </li>
-            </Link>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="/">Home</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="/#about">About</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="/#skills">Skills</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="/#projects">Projects</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="/#contact">Contact</Link>
+            </li>
           </ul>
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
@@ -86,13 +82,13 @@ const NavBar = () => {
               <Link href="/#about">
                 <li className="py-4 text-sm">About</li>
               </Link>
-              <Link href="/">
+              <Link href="/#skills">
                 <li className="py-4 text-sm">Skills</li>
               </Link>
-              <Link href="/">
+              <Link href="/#projects">
                 <li className="py-4 text-sm">Projects</li>
               </Link>
-              <Link href="/">
+              <Link href="/#contact">
                 <li className="py-4 text-sm">Contact</li>
               </Link>
             </ul>
