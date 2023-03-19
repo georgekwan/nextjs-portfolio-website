@@ -34,7 +34,9 @@ const NavBar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image src="/assets/george-kwan.png" alt="/" width="55" height="50" />
+        <Link href="/">
+          <Image src="/assets/george-kwan.png" alt="/" width="55" height="50" />
+        </Link>
         <div>
           <ul className="hidden md:flex">
             <li className="ml-10 text-sm uppercase hover:border-b">
