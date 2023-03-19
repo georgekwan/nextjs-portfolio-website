@@ -21,7 +21,7 @@ const Projects = () => {
           <ProjectItem
             title="Weather Based Activity App"
             backgroundImg={propertyImg}
-            projectUrl="/property"
+            projectUrl="/houseMarketplace"
           />
           <ProjectItem
             title="Github Finder"
