@@ -18,9 +18,9 @@ const Main = () => {
           <p className="py-4 text-[#334756] sm:max-w-[70%] m-auto">
             Meet George, an ambitious and friendly full-stack developer with a
             background in project management. He approaches life with a
-            &quot;Live Life Like A Movie&quot; attitude, meaning he follows his
-            curiosity, and creating an interesting and fulfilling life. He is
-            adaptable and ready for unexpected changes.
+            &quot;Live Life Like A Movie&quot; attitude, meaning he embraces
+            opportunities and follows his curiosity. He is adaptable and ready
+            for unexpected changes.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
