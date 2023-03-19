@@ -116,6 +116,13 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <div>
+          <Link href="/">
+            <div>
+              <HiOutlineChevronDoubleUp />
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
   );
