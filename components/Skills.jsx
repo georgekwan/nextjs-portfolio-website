@@ -19,7 +19,7 @@ import Trello from '../public/assets/skills/trello.svg';
 
 const Skills = () => {
   return (
-    <div className="w-full lg:h-screen p-2">
+    <div id="skills" className="w-full lg:h-screen p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[##FF4C29]">
           Skills
