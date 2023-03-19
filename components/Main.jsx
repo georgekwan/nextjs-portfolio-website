@@ -16,11 +16,11 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-[#2C394B]">A Full-Stack Developer</h1>
           <p className="py-4 text-[#334756] sm:max-w-[70%] m-auto">
-            Meet George, an ambitious and friendly full-stack developer with a
-            background in project management. He approaches life with a "Live
-            Life Like A Movie" attitude, meaning he follows his curiosity, and
-            creating an interesting and fulfilling life. He is adaptable and
-            ready for unexpected changes.
+            {`Meet George, an ambitious and friendly full-stack developer with a
+            background in project management. He approaches life with a
+            "Live Life Like A Movie" attitude, meaning he follows his
+            curiosity, and creating an interesting and fulfilling life. He is
+            adaptable and ready for unexpected changes.`}
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
