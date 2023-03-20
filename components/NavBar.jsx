@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { useRouter } from 'next/router';
 import NavLogo from '../public/assets/george-kwan.png';
 
 const NavBar = () => {
@@ -11,7 +12,22 @@ const NavBar = () => {
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState('#ecf0f3');
   const [linkColor, setLinkColor] = useState('#1f2937');
+  const router = useRouter();
 
+  useEffect(() => {
+    if (
+      router.asPath === '/property' ||
+      router.asPath === '/funactive' ||
+      router.asPath === '/githubFinder' ||
+      router.asPath === '/houseMarketplace'
+    ) {
+      setNavBg('transparent');
+      setLinkColor('#ecf0f3');
+    } else {
+      setNavBg('#ecf0f3');
+      setLinkColor('#1f2937');
+    }
+  }, [router]);
   const handleNav = () => {
     setNav(!nav);
   };
