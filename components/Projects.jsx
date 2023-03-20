@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import propertyImg from '../public/assets/projects/property.png';
+import housemarketplaceImg from '../public/assets/projects/house-marketplace.png';
+import githubfinderImg from '../public/assets/projects/github-finder.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -15,27 +16,27 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Hockey Trainer"
-            backgroundImg={propertyImg}
+            backgroundImg={housemarketplaceImg}
             projectUrl="/property"
           />
           <ProjectItem
             title="Weather Based Activity App"
-            backgroundImg={propertyImg}
+            backgroundImg={housemarketplaceImg}
             projectUrl="/houseMarketplace"
           />
           <ProjectItem
             title="House Marketplace"
-            backgroundImg={propertyImg}
+            backgroundImg={housemarketplaceImg}
             projectUrl="/houseMarketplace"
           />
           <ProjectItem
             title="GitHub User Lookup"
-            backgroundImg={propertyImg}
+            backgroundImg={githubfinderImg}
             projectUrl="/githubFinder"
           />
           <ProjectItem
             title="Property Finder"
-            backgroundImg={propertyImg}
+            backgroundImg={housemarketplaceImg}
             projectUrl="/property"
           />
         </div>
