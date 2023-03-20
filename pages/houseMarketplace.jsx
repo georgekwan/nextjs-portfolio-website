@@ -41,6 +41,18 @@ const houseMarketplace = () => {
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill /> React
               </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill /> Firebase
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill /> React-Leaflet
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill /> Swiper
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill /> uuid
+              </p>
             </div>
           </div>
         </div>
