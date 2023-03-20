@@ -67,6 +67,9 @@ const houseMarketplace = () => {
             </div>
           </div>
         </div>
+        <Link href="/">
+          <p className="underline cursor-pointer">Back</p>
+        </Link>
       </div>
     </div>
   );

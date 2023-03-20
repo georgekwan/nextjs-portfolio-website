@@ -24,12 +24,12 @@ const Projects = () => {
             projectUrl="/houseMarketplace"
           />
           <ProjectItem
-            title="Github Finder"
+            title="House Marketplace"
             backgroundImg={propertyImg}
-            projectUrl="/property"
+            projectUrl="/houseMarketplace"
           />
           <ProjectItem
-            title="Property Finder"
+            title="Github Finder"
             backgroundImg={propertyImg}
             projectUrl="/property"
           />
