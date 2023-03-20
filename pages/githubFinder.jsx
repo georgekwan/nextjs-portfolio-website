@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
 
-import propertyImg from '@/public/assets/projects/property.png';
+import githubfinderImg from '@/public/assets/projects/github-finder.png';
 
 const githubFinder = () => {
   return (
@@ -12,7 +12,7 @@ const githubFinder = () => {
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image
           className="absolute z-1 object-cover"
-          src={propertyImg}
+          src={githubfinderImg}
           fill
           alt="/"
         />
