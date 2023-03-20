@@ -1,17 +1,19 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { RiRadioButtonFill } from 'react-icons/ri';
+
 import propertyImg from '@/public/assets/projects/property.png';
 
 const houseMarketplace = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[30vh] log:h-[50vh] bg-black/70 z-10" />
+        <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image
           className="absolute z-1"
-          layout="fill"
-          objectFit="cover"
+          style={{ objectFit: 'cover' }}
+          fill
           src={propertyImg}
           alt="/"
         />
