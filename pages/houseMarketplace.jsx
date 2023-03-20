@@ -22,6 +22,17 @@ const houseMarketplace = () => {
           <h3>React JS / Firebase</h3>
         </div>
       </div>
+      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
+        <div className="col-span-4">
+          <p>Project</p>
+          <h2>Overview</h2>
+          <p>
+            It&apos;s a web application where people can come and register and
+            list their home or apartment for rent or for sale. They can also add
+            it as a special offer.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
