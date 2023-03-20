@@ -166,10 +166,17 @@ const Contact = () => {
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Subject</label>
+                  <label htmlFor="subject" className="uppercase text-sm py-2">
+                    Subject
+                  </label>
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
+                    name="subject"
+                    value={subject}
+                    onChange={(e) => {
+                      setSubject(e.target.value);
+                    }}
                   />
                 </div>
                 <div className="flex flex-col py-2">
