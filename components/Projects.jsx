@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import funactiveImg from '../public/assets/projects/funactive.png';
 import housemarketplaceImg from '../public/assets/projects/house-marketplace.png';
 import githubfinderImg from '../public/assets/projects/github-finder.png';
 import ProjectItem from './ProjectItem';
@@ -21,8 +22,8 @@ const Projects = () => {
           />
           <ProjectItem
             title="Weather Based Activity App"
-            backgroundImg={housemarketplaceImg}
-            projectUrl="/houseMarketplace"
+            backgroundImg={funactiveImg}
+            projectUrl="/funactive"
           />
           <ProjectItem
             title="House Marketplace"
