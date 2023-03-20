@@ -67,7 +67,7 @@ const houseMarketplace = () => {
             </div>
           </div>
         </div>
-        <Link href="/">
+        <Link href="/#projects">
           <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>
