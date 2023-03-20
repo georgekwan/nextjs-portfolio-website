@@ -14,6 +14,7 @@ const NavBar = () => {
   const [linkColor, setLinkColor] = useState('#1f2937');
   const router = useRouter();
 
+  // Transparent only in project page
   useEffect(() => {
     if (
       router.asPath === '/property' ||
