@@ -9,6 +9,8 @@ import NavLogo from '../public/assets/george-kwan.png';
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState('#ecf0f3');
+  const [linkColor, setLinkColor] = useState('#1f2937');
 
   const handleNav = () => {
     setNav(!nav);
@@ -27,15 +29,22 @@ const NavBar = () => {
 
   return (
     <div
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100]'
+          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
           : 'fixed w-full h-20 z-[100]'
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image src="/assets/george-kwan.png" alt="/" width="55" height="50" />
+          <Image
+            src={NavLogo}
+            alt="/"
+            width="60"
+            height="50"
+            className="cursor-pointer"
+          />
         </Link>
         <div>
           <ul className="hidden md:flex">
@@ -55,17 +64,25 @@ const NavBar = () => {
               <Link href="/#contact">Contact</Link>
             </li>
           </ul>
-          <div onClick={handleNav} className="md:hidden">
+          {/* Hamburger Icon */}
+          <div
+            style={{ color: `${linkColor}` }}
+            onClick={handleNav}
+            className="md:hidden"
+          >
             <AiOutlineMenu size={25} />
           </div>
         </div>
       </div>
 
+      {/* Mobile Menu */}
+      {/* Overlay */}
       <div
         className={
           nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
         }
       >
+        {/* Side Drawer Menu */}
         <div
           className={
             nav
@@ -76,12 +93,7 @@ const NavBar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image
-                  src="/assets/george-kwan.png"
-                  width="50"
-                  height="35"
-                  alt="/"
-                />
+                <Image src={NavLogo} width="80" height="50" alt="/" />
               </Link>
               <div
                 onClick={handleNav}
