@@ -145,7 +145,9 @@ const resume = () => {
               project completion rate.
             </li>
           </ul>
+        </div>
 
+        <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">PROFESSIONAL DEVELOPMENT</span>
             <span className="px-2">|</span>Calgary, AB
@@ -164,7 +166,9 @@ const resume = () => {
               Participated as a volunteer with a non-governmental organization
             </li>
           </ul>
+        </div>
 
+        <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">PLAINS MIDSTREAM CANADA</span>
             <span className="px-2">|</span>Calgary, AB
