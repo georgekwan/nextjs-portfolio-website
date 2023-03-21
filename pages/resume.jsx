@@ -112,6 +112,88 @@ const resume = () => {
             Fundamentals (ERP)
           </p>
         </div>
+
+        <h5 className="text-center underline text-[18px] py-4">
+          Professional Experience
+        </h5>
+        {/* Experience */}
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">INCEPTIONU</span>
+            <span className="px-2">|</span>Calgary, AB
+          </p>
+          <p className="py-1 italic">
+            Full Stack Developer | React | React Native - Apprenticeship (2022 -
+            2023)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Developed a cross-platform mobile application for Harpia Sports to
+              make their hockey training program more accessible.
+            </li>
+            <li>
+              Built a MERN stack web application in a team setting to provide
+              outdoor activity suggestions based on weather conditions.
+            </li>
+            <li>
+              Developed a REST API that functions as a command-line interface
+              game using Express.
+            </li>
+            <li>
+              Advocated project management best practices to the team; Resulting
+              in a 15% reduction in project delays and a 20% increase in the
+              project completion rate.
+            </li>
+          </ul>
+
+          <p className="italic">
+            <span className="font-bold italic">PROFESSIONAL DEVELOPMENT</span>
+            <span className="px-2">|</span>Calgary, AB
+          </p>
+          <p className="py-1 italic">Career Break (2020 - 2022)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Completed several online courses on web development and
+              programming languages, such as HTML, CSS, JavaScript, and Python.
+            </li>
+            <li>
+              Successfully completed project management professional development
+              programs.
+            </li>
+            <li>
+              Participated as a volunteer with a non-governmental organization
+            </li>
+          </ul>
+
+          <p className="italic">
+            <span className="font-bold italic">PLAINS MIDSTREAM CANADA</span>
+            <span className="px-2">|</span>Calgary, AB
+          </p>
+          <p className="py-1 italic">
+            Tax Coordinator | Fuel Tax | Terminal Operator | Sales & Use Tax
+            (2008 - 2020)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Utilized data analytics to process and monitor tax-related
+              transactions, resulting in a 20% increase in transaction accuracy.
+            </li>
+            <li>
+              Conducted in-depth analysis and interpretation of tax regulations,
+              leading to a 15% reduction in tax-related errors and penalties.
+            </li>
+            <li>
+              Streamlined and improved tax processes and procedures, resulting
+              in a 30% increase in efficiency and saving 10 hours per week in
+              manual labour.
+            </li>
+            <li>
+              Maintained open communication by presenting regular updates on
+              audit status to tax auditors, resulting in a 25% decrease in audit
+              duration.
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );
