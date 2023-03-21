@@ -106,10 +106,31 @@ const resume = () => {
           </p>
           <p className="py-2">
             <span className="font-bold">Certifications</span>
-            <span className="px-2">|</span>Certified Associate in Project
+            <span className="px-2">|</span>
+            <a
+              href="https://www.credly.com/badges/7164e6a2-2366-491a-b5d7-c7328485ac92/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Certified Associate in Project
+            </a>
             Management (CAPM)®
-            <span className="px-2">|</span>Microsoft Certified: Dynamics 365
-            Fundamentals (ERP)
+            <span className="px-2">|</span>
+            <a
+              href="https://www.credly.com/badges/9aefd9ce-2aa1-48bf-9c63-02b33962d265?source=linked_in_profile/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Microsoft Certified: Dynamics 365 Fundamentals (ERP)
+            </a>
+            <span className="px-2">|</span>
+            <a
+              href="https://www.credly.com/badges/ee326a5c-0df6-42c9-ae74-869164fdb6b2?source=linked_in_profile/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              IBM Applied AI Professional Certificate
+            </a>
           </p>
         </div>
 
