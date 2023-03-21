@@ -52,6 +52,7 @@ const Contact = () => {
     return isValid;
   };
 
+  //   Handling form submit
   const handleSubmit = async (e) => {
     e.preventDefault();
 
