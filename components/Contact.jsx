@@ -186,6 +186,9 @@ const Contact = () => {
                       }}
                       name="fullname"
                     />
+                    {errors?.fullname && (
+                      <p className="text-red-500">Full name cannot be empty.</p>
+                    )}
                   </div>
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">
@@ -200,6 +203,11 @@ const Contact = () => {
                         setPhone(e.target.value);
                       }}
                     />
+                    {errors?.phone && (
+                      <p className="text-red-500">
+                        Phone number cannot be empty.
+                      </p>
+                    )}
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
@@ -215,6 +223,9 @@ const Contact = () => {
                       setEmail(e.target.value);
                     }}
                   />
+                  {errors?.email && (
+                    <p className="text-red-500">Email cannot be empty.</p>
+                  )}
                 </div>
                 <div className="flex flex-col py-2">
                   <label htmlFor="subject" className="uppercase text-sm py-2">
@@ -229,6 +240,9 @@ const Contact = () => {
                       setSubject(e.target.value);
                     }}
                   />
+                  {errors?.subject && (
+                    <p className="text-red-500">Subject cannot be empty.</p>
+                  )}
                 </div>
                 <div className="flex flex-col py-2">
                   <label htmlFor="message" className="uppercase text-sm py-2">
@@ -243,6 +257,11 @@ const Contact = () => {
                       setMessage(e.target.value);
                     }}
                   ></textarea>
+                  {errors?.message && (
+                    <p className="text-red-500">
+                      Message body cannot be empty.
+                    </p>
+                  )}
                 </div>
 
                 <button className="w-full p-4 text-gray-100 mt-4" type="submit">
