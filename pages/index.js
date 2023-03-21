@@ -12,7 +12,7 @@ export default function Home() {
         <title>George | Full-End Developer</title>
         <meta
           name="description"
-          content="I’m a full-stack developer specializing in building (and occasionally designing) exceptional digital experiences."
+          content="I am a full Stack Developer specializing in seamless web and mobile experiences."
         />
         <link rel="icon" href="/fav.png" />
       </Head>
