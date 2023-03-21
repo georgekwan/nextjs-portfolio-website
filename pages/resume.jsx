@@ -13,24 +13,24 @@ const resume = () => {
         />
         <link rel="icon" href="/fav.png" />
       </Head>
-      <div>
+      <div className="p-5">
         <h2 className="text-center">Resume</h2>
-        <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
-          <h2 className="text-center">George Kwan</h2>
+        <div className="bg-[#d0d4d6] my-10 p-1 w-full flex justify-between items-center">
+          <h2 className="text-center ml-2">George Kwan</h2>
           <div className="flex">
             <a
               href="https://www.linkedin.com/in/george-kwan/"
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
+              <FaLinkedinIn size={25} style={{ marginRight: '1rem' }} />
             </a>
             <a
               href="https://github.com/georgekwan"
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithub size={20} style={{ marginRight: '1rem' }} />
+              <FaGithub size={25} style={{ marginRight: '1rem' }} />
             </a>
           </div>
         </div>
