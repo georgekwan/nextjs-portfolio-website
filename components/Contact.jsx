@@ -10,7 +10,7 @@ import ContactImg from '@/public/assets/contact.jpg';
 const Contact = () => {
   // States for contact form fields
   const [fullname, setFullname] = useState('');
-  // const [phone, setPhone] = useState('');
+  const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
@@ -38,6 +38,10 @@ const Contact = () => {
       tempErrors['email'] = true;
       isValid = false;
     }
+    if (phone.length <= 0) {
+      tempErrors['phone'] = true;
+      isValid = false;
+    }
     if (subject.length <= 0) {
       tempErrors['subject'] = true;
       isValid = false;
@@ -63,6 +67,7 @@ const Contact = () => {
       const res = await fetch('/api/sendgrid', {
         body: JSON.stringify({
           email: email,
+          phone: phone,
           fullname: fullname,
           subject: subject,
           message: message,
@@ -83,6 +88,7 @@ const Contact = () => {
         // Reset form fields
         setFullname('');
         setEmail('');
+        setPhone('');
         setMessage('');
         setSubject('');
         return;
@@ -93,10 +99,11 @@ const Contact = () => {
       // Reset form fields
       setFullname('');
       setEmail('');
+      setPhone('');
       setMessage('');
       setSubject('');
     }
-    console.log(fullname, email, subject, message);
+    console.log(fullname, email, phone, subject, message);
   };
 
   return (
@@ -180,15 +187,20 @@ const Contact = () => {
                       name="fullname"
                     />
                   </div>
-                  {/* <div className="flex flex-col">
+                  <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">
                       Phone Number
                     </label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      name="phone"
+                      value={phone}
+                      onChange={(e) => {
+                        setPhone(e.target.value);
+                      }}
                     />
-                  </div> */}
+                  </div>
                 </div>
                 <div className="flex flex-col py-2">
                   <label htmlFor="email" className="uppercase text-sm py-2">
