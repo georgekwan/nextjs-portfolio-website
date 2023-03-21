@@ -264,11 +264,11 @@ const Contact = () => {
                   )}
                 </div>
 
-                <button className="w-full p-4 text-gray-100 mt-4" type="submit">
+                <button className="w-full p-4 text-gray-100 mt-4">
                   Send Message
                 </button>
 
-                {/* <div className="text-left">
+                <div className="text-left">
                   {showSuccessMessage && (
                     <p className="text-green-500 font-semibold text-sm my-2">
                       Thank you! Your Message has been delivered.
@@ -279,7 +279,7 @@ const Contact = () => {
                       Oops! Something went wrong, please try again.
                     </p>
                   )}
-                </div> */}
+                </div>
               </form>
             </div>
           </div>
