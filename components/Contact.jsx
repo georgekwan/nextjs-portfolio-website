@@ -8,21 +8,24 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '@/public/assets/contact.jpg';
 
 const Contact = () => {
+  // States for contact form fields
   const [fullname, setFullname] = useState('');
   // const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
-  //   Form validation
+  //   Form validation state
   const [errors, setErrors] = useState({});
 
-  //   Setting button text
+  //   Setting button text on form submission
   const [buttonText, setButtonText] = useState('Send');
 
+  // Setting success or failure messages states
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
   const [showFailureMessage, setShowFailureMessage] = useState(false);
 
+  // Validation check method
   const handleValidation = () => {
     let tempErrors = {};
     let isValid = true;
