@@ -232,9 +232,26 @@ const Contact = () => {
                     }}
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4" type="submit">
-                  Send Message
-                </button>
+                <div>
+                  <button
+                    className="w-full p-4 text-gray-100 mt-4"
+                    type="submit"
+                  >
+                    Send Message
+                  </button>
+                </div>
+                <div className="text-left">
+                  {showSuccessMessage && (
+                    <p className="text-green-500 font-semibold text-sm my-2">
+                      Thankyou! Your Message has been delivered.
+                    </p>
+                  )}
+                  {showFailureMessage && (
+                    <p className="text-red-500">
+                      Oops! Something went wrong, please try again.
+                    </p>
+                  )}
+                </div>
               </form>
             </div>
           </div>
