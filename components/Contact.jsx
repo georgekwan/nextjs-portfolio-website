@@ -14,6 +14,15 @@ const Contact = () => {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
 
+  //   Form validation
+  const [errors, setErrors] = useState({});
+
+  //   Setting button text
+  const [buttonText, setButtonText] = useState('Send');
+
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+  const [showFailureMessage, setShowFailureMessage] = useState(false);
+
   const handleValidation = () => {
     let tempErrors = {};
     let isValid = true;
