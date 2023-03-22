@@ -15,11 +15,11 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem
+          {/* <ProjectItem
             title="Hockey Trainer"
             backgroundImg={housemarketplaceImg}
             projectUrl="/property"
-          />
+          /> */}
           <ProjectItem
             title="Weather Based Activity App"
             backgroundImg={funactiveImg}
@@ -35,11 +35,11 @@ const Projects = () => {
             backgroundImg={githubfinderImg}
             projectUrl="/githubFinder"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="Property Finder"
             backgroundImg={housemarketplaceImg}
             projectUrl="/property"
-          />
+          /> */}
         </div>
       </div>
     </div>
