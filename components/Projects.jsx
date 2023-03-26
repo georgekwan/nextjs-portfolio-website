@@ -17,29 +17,40 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           {/* <ProjectItem
             title="Hockey Trainer"
-            backgroundImg={housemarketplaceImg}
-            projectUrl="/property"
+            technologies="React Native | Firebase"
+            backgroundImg={hockeytrainerImg}
+            projectUrl="/hockeytrainer"
+          /> */}
+          {/* <ProjectItem
+            title="Portfolio page"
+            technologies="React | Next.js"
+            backgroundImg={portfolioImg}
+            projectUrl="/"
+          /> */}
+          {/* <ProjectItem
+            title="3D landing page"
+            technologies="JavaScript | Three"
+            backgroundImg={3dlandingImg}
+            projectUrl="/3dlanding"
           /> */}
           <ProjectItem
             title="Weather Based Activity App"
+            technologies="MongoDB | Express | React | Node.js"
             backgroundImg={funactiveImg}
             projectUrl="/funactive"
           />
           <ProjectItem
             title="House Marketplace"
+            technologies="React | Firebase"
             backgroundImg={housemarketplaceImg}
             projectUrl="/houseMarketplace"
           />
           <ProjectItem
             title="GitHub User Lookup"
+            technologies="React | Tailwind | Daisy UI"
             backgroundImg={githubfinderImg}
             projectUrl="/githubFinder"
           />
-          {/* <ProjectItem
-            title="Property Finder"
-            backgroundImg={housemarketplaceImg}
-            projectUrl="/property"
-          /> */}
         </div>
       </div>
     </div>
