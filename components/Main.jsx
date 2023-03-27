@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { TypeAnimation } from 'react-type-animation';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
@@ -13,7 +14,35 @@ const Main = () => {
             LET&#39;S WORK TOGETHER TO BUILD SOMETHING
           </p>
           <h1 className="py-4 text-[#2C394B]">
-            Hi, I&#39;m <span className="text-[#D6001C]"> George</span>
+            Hi, I&#39;m
+            <TypeAnimation
+              className="text-[#D6001C]"
+              sequence={[
+                ' George',
+                2500,
+                ' 佐治',
+                1000,
+                ' Jorge',
+                1000,
+                ' 喬治',
+                1000,
+                ' Georg',
+                1000,
+                ' Joris',
+                1000,
+                ' จอร์จ',
+                1000,
+                ' Georges',
+                1000,
+                ' Giorgio',
+                1000,
+              ]}
+              speed={200}
+              deletionSpeed={30}
+              wrapper="span"
+              cursor={true}
+              repeat={Infinity}
+            />
           </h1>
           <h1 className="py-2 text-[#2C394B]">A Full-Stack Developer</h1>
           <p className="py-4 text-[#334756] sm:max-w-[70%] m-auto">
