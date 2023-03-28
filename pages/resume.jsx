@@ -23,14 +23,14 @@ const resume = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedinIn size={25} style={{ marginRight: '1rem' }} />
+              <FaLinkedinIn size={25} className="mr-2 hover:text-[#D6001C]" />
             </a>
             <a
               href="https://github.com/georgekwan"
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithub size={25} style={{ marginRight: '1rem' }} />
+              <FaGithub size={25} className="mr-2 hover:text-[#D6001C]" />
             </a>
           </div>
         </div>
