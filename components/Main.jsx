@@ -44,7 +44,7 @@ const Main = () => {
               repeat={Infinity}
             />
           </h1>
-          <h1 className="py-2 text-[#2C394B]">A Full-Stack Developer</h1>
+          <h1 className="py-2 text-[#2C394B]">A Front-end Developer</h1>
           <p className="py-4 text-[#334756] sm:max-w-[70%] m-auto">
             I thrive on problem solving and enjoy exploring new opportunities
             that align with my curiosity. With an adaptive mindset, I&apos;m

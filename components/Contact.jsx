@@ -126,10 +126,12 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">George Kwan</h2>
-                <p>Full-Stack Developer</p>
+                <p>Front-end Developer</p>
                 <p>
-                  I am available for freelance or full-time position. Contact me
-                  and let&apos;s talk.
+                  I am available for freelance, contract, or full-time
+                  positions. Let&apos;s connect and discuss your software
+                  development needs. I&apos;m passionate about delivering
+                  exceptional solutions that meet the needs of my clients.
                 </p>
               </div>
               <div>

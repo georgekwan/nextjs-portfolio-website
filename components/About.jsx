@@ -13,8 +13,8 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-[#334756]">
-            Hey there, I&apos;m George and I&apos;m a full-stack developer with
-            a passion for taking on challenges. I embrace every opportunity that
+            Hey there, I&apos;m George and I&apos;m a front-end developer with a
+            passion for taking on challenges. I embrace every opportunity that
             comes my way and love to follow my curiosity wherever it leads me.
             My background in tax has helped me to develop strong analytical
             skills, a keen eye for detail, and a natural problem-solving ability

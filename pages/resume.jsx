@@ -48,7 +48,7 @@ const resume = () => {
           </div>
         </div>
         <p>
-          As a full-stack developer, I transitioned from tax and developed a
+          As a front-end developer, I transitioned from tax and developed a
           cross-platform mobile application for Harpia Sports, making their
           hockey training program more accessible. In a team setting, I built a
           MERN stack web application providing outdoor activity suggestions
