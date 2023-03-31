@@ -273,7 +273,8 @@ const resume = () => {
             </li>
             <li>
               Conducted in-depth analysis and interpretation of tax regulations,
-              leading to a 15% reduction in tax-related errors and penalties.
+              leading to reduction of in 200 tax-related errors and $30,000 of
+              penalties.
             </li>
             <li>
               Streamlined and improved tax processes and procedures, resulting
@@ -282,8 +283,8 @@ const resume = () => {
             </li>
             <li>
               Maintained open communication by presenting regular updates on
-              audit status to tax auditors, resulting in a 25% decrease in audit
-              duration.
+              audit status to tax auditors, resulting in decrease of 5 days in
+              audit duration.
             </li>
           </ul>
         </div>
