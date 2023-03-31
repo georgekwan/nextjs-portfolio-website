@@ -273,8 +273,8 @@ const resume = () => {
             </li>
             <li>
               Conducted in-depth analysis and interpretation of tax regulations,
-              leading to reduction of in 200 tax-related errors and $30,000 of
-              penalties.
+              leading to reduction of in 200 tax-related errors and $30,000USD
+              of penalties.
             </li>
             <li>
               Streamlined and improved tax processes and procedures, resulting
