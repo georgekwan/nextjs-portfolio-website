@@ -144,17 +144,63 @@ const resume = () => {
             <span className="px-2">|</span>Calgary, AB
           </p>
           <p className="py-1 italic">
-            Full Stack Developer | React | React Native - Apprenticeship (2022 -
-            2023)
+            Mobile App Developer | React Native | Expo | Firebase -
+            Apprenticeship (2022 - 2023)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Developed a cross-platform mobile application for Harpia Sports to
-              make their hockey training program more accessible.
+              Created and implemented user interfaces tailored to hockey players
+              that integrated multi-sensory feedback, achieving 28/30 user
+              satisfaction and delivering immersive and engaging experiences
+              that delighted users.
             </li>
             <li>
-              Built a MERN stack web application in a team setting to provide
-              outdoor activity suggestions based on weather conditions.
+              Spearheaded the implementation of key product enhancements,
+              including data visualization features and bug fixes, based on
+              thirty user feedbacks. Resulted in a notable 20% boost in user
+              retention and satisfaction metrics.
+            </li>
+            <li>
+              Integrated APIs and two third-party libraries, such as Firebase,
+              React Native Dropdown Picker and React Native Gifted Charts to
+              improve app functionality and user experience.
+            </li>
+            <li>
+              Executed a software development cycle from requirements gathering
+              to deployment, delivering a mobile-based hockey training app that
+              met the client’s specifications and expectations within 2 months
+              of the timeline.
+            </li>
+            <li>
+              Collaborated on daily stand-ups, code reviews, and sprint
+              retrospectives using Agile methodologies.
+            </li>
+          </ul>
+        </div>
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">INCEPTIONU</span>
+            <span className="px-2">|</span>Calgary, AB
+          </p>
+          <p className="py-1 italic">
+            Full Stack Developer MongoDB | Express | React | Node.js -
+            Apprenticeship (2022 - 2023)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Built a MERN(MongoDB, Express, React, Node.js) stack web
+              application in a team of three settings to provide outdoor
+              activity suggestions based on weather conditions.
+            </li>
+            <li>
+              Integrated third-party APIs from external applications into web
+              platforms to produce accurate weather data with a 95% uptime.
+            </li>
+            <li>
+              Reduced system errors by 40% and increased software performance by
+              20% by troubleshooting, testing, and debugging software to clean
+              up code and improve efficiency.
             </li>
             <li>
               Developed a REST API that functions as a command-line interface
@@ -164,6 +210,10 @@ const resume = () => {
               Advocated project management best practices to the team; Resulting
               in a 15% reduction in project delays and a 20% increase in the
               project completion rate.
+            </li>
+            <li>
+              Improved team communication by implementing a Gantt chart and
+              Kanban board, resulting in 2 days reduction in project completion.
             </li>
           </ul>
         </div>
@@ -184,6 +234,9 @@ const resume = () => {
               programs.
             </li>
             <li>
+              Completed Microsoft Certified: Dynamics 365 Fundamentals (ERP).
+            </li>
+            <li>
               Participated as a volunteer with a non-governmental organization
             </li>
           </ul>
@@ -199,6 +252,20 @@ const resume = () => {
             (2008 - 2020)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Managed and maintained the tax modules of the ERP system,
+              including tax rates, tax exemption status, tax liability accounts,
+              and contracts.
+            </li>
+            <li>
+              Collaborated cross-functionally with internal stakeholders to
+              capture and account for tax data in the ERP system, driving
+              financial integrity and compliance.
+            </li>
+            <li>
+              Produced flow charts to ensure 100% compliance with internal
+              governance, and optimized work processes.
+            </li>
             <li>
               Utilized data analytics to process and monitor tax-related
               transactions, resulting in a 20% increase in transaction accuracy.
