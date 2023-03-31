@@ -112,9 +112,8 @@ const resume = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Certified Associate in Project
+              Certified Associate in Project Management (CAPM)®
             </a>
-            Management (CAPM)®
             <span className="px-2">|</span>
             <a
               href="https://www.credly.com/badges/9aefd9ce-2aa1-48bf-9c63-02b33962d265?source=linked_in_profile/"
@@ -140,7 +139,9 @@ const resume = () => {
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold italic">INCEPTIONU</span>
+            <span className="font-bold italic">
+              HARPIA SPORTS(INCEPTIONU INDUSTRY PARTNER)
+            </span>
             <span className="px-2">|</span>Calgary, AB
           </p>
           <p className="py-1 italic">
@@ -184,7 +185,7 @@ const resume = () => {
             <span className="px-2">|</span>Calgary, AB
           </p>
           <p className="py-1 italic">
-            Full Stack Developer MongoDB | Express | React | Node.js -
+            Full Stack Developer | MongoDB | Express | React | Node.js -
             Apprenticeship (2022 - 2023)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
