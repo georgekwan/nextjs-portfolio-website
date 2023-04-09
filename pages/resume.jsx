@@ -26,7 +26,7 @@ const resume = () => {
               <FaLinkedinIn size={25} className="mr-2 hover:text-[#D6001C]" />
             </a>
             <a
-              href="https://github.com/georgekwan"
+              href="https://georgekwan.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
