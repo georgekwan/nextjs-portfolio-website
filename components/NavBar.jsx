@@ -17,7 +17,7 @@ const NavBar = () => {
   // Transparent only in project page
   useEffect(() => {
     if (
-      router.asPath === '/property' ||
+      router.asPath === '/threeJSIntro' ||
       router.asPath === '/funactive' ||
       router.asPath === '/githubFinder' ||
       router.asPath === '/houseMarketplace'
@@ -42,7 +42,8 @@ const NavBar = () => {
       }
     };
     window.addEventListener('scroll', handleShadow);
-  }, []);
+    return () => window.removeEventListener('scroll', handleShadow);
+  }, [navBg]);
 
   return (
     <div
