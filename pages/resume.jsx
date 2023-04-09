@@ -92,10 +92,9 @@ const resume = () => {
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
           <p className="py-2">
             <span className="font-bold">Technical Skills</span>
-            <span className="px-2">|</span>Full Stack Developer
+            <span className="px-2">|</span>Javascript
             <span className="px-2">|</span>React Native
             <span className="px-2">|</span>Expo
-            <span className="px-2">|</span>Javascript
             <span className="px-2">|</span>React
             <span className="px-2">|</span>Next JS
             <span className="px-2">|</span>CSS
