@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>George Kwan | Full-end Developer</title>
+        <title>George Kwan | Front-end Developer</title>
         <meta
           name="description"
           content="I am a front-end Developer specializing in seamless web and mobile experiences."
