@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import funactiveImg from '../public/assets/projects/funactive.png';
+import threeJSIntroImg from '../public/assets/projects/threeJS-intro.png';
 import housemarketplaceImg from '../public/assets/projects/house-marketplace.png';
 import githubfinderImg from '../public/assets/projects/github-finder.png';
 import ProjectItem from './ProjectItem';
@@ -27,12 +28,12 @@ const Projects = () => {
             backgroundImg={portfolioImg}
             projectUrl="/"
           /> */}
-          {/* <ProjectItem
-            title="3D landing page"
+          <ProjectItem
+            title="Three JS Landing Page"
             technologies="JavaScript | Three"
-            backgroundImg={3dlandingImg}
-            projectUrl="/3dlanding"
-          /> */}
+            backgroundImg={threeJSIntroImg}
+            projectUrl="/threeJSIntro"
+          />
           <ProjectItem
             title="Weather Based Activity App"
             technologies="MongoDB | Express | React | Node.js"
