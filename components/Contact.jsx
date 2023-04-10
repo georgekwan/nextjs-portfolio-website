@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
+
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
@@ -81,6 +83,7 @@ const Contact = () => {
       const { error } = await res.json();
       if (error) {
         console.log(error);
+        toast.error('Error! Please Try Again😭');
         setShowSuccessMessage(false);
         setShowFailureMessage(true);
         setButtonText('Send');
@@ -93,6 +96,7 @@ const Contact = () => {
         setSubject('');
         return;
       }
+      toast.success('Message Sent🎉');
       setShowSuccessMessage(true);
       setShowFailureMessage(false);
       setButtonText('Send');
@@ -103,7 +107,6 @@ const Contact = () => {
       setMessage('');
       setSubject('');
     }
-    console.log(fullname, email, phone, subject, message);
   };
 
   return (
