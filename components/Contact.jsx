@@ -129,7 +129,7 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">George Kwan</h2>
-                <p>Front-end Developer</p>
+                <p>Software Developer</p>
                 <p>
                   I am available for freelance, contract, or full-time
                   positions. Let&apos;s connect and discuss your software

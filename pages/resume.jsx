@@ -9,7 +9,7 @@ const resume = () => {
         <title>George | Resume</title>
         <meta
           name="description"
-          content="I am a Front-end Developer specializing in seamless web and mobile experiences."
+          content="I am a Software Developer specializing in seamless web and mobile experiences."
         />
         <link rel="icon" href="/fav.png" />
       </Head>
@@ -48,7 +48,7 @@ const resume = () => {
           </div>
         </div>
         <p>
-          As a front-end developer, I transitioned from tax and developed a
+          As a Software developer, I transitioned from tax and developed a
           cross-platform mobile application for Harpia Sports, making their
           hockey training program more accessible. In a team setting, I built a
           MERN stack web application providing outdoor activity suggestions
