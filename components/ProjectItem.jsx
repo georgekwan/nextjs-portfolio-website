@@ -12,12 +12,12 @@ const ProjectItem = ({ title, technologies, backgroundImg, projectUrl }) => {
       />
 
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <h3 className="text-2x1 text-white tracking-wider text-center">
+        <h3 className="text-2x1 text-[#eceef3] tracking-wider text-center">
           {title}
         </h3>
-        <p className="pb-4 pt-2 text-white text-center">{technologies}</p>
+        <p className="pb-4 pt-2 text-[#eceef3] text-center">{technologies}</p>
         <Link href={projectUrl}>
-          <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
+          <p className="text-center bg-[#eceef3] py-3 rounded-lg text-gray-700 font-bold text-lg cursor-pointer">
             More Info
           </p>
         </Link>

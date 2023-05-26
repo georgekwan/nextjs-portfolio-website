@@ -118,7 +118,7 @@ const NavBar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-lg bg-[#eceef3] shadow-gray-400 p-3 cursor-pointer"
               >
                 <AiOutlineClose />
               </div>
@@ -172,7 +172,7 @@ const NavBar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 bg-[#eceef3] p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
                 </a>
@@ -181,17 +181,17 @@ const NavBar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 bg-[#eceef3] cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub />
                   </div>
                 </a>
                 <Link href="/#contact">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 bg-[#eceef3] p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <AiOutlineMail />
                   </div>
                 </Link>
                 <Link href="/resume">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 bg-[#eceef3] p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsFillPersonLinesFill />
                   </div>
                 </Link>

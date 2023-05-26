@@ -58,7 +58,10 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
+                style={{ backgroundColor: '#eceef3' }}
+              >
                 <FaLinkedinIn />
               </div>
             </a>
@@ -67,17 +70,26 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
+                style={{ backgroundColor: '#eceef3' }}
+              >
                 <FaGithub />
               </div>
             </a>
             <Link href="/#contact">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
+                style={{ backgroundColor: '#eceef3' }}
+              >
                 <AiOutlineMail />
               </div>
             </Link>
             <Link href="/resume">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
+                style={{ backgroundColor: '#eceef3' }}
+              >
                 <BsFillPersonLinesFill />
               </div>
             </Link>
