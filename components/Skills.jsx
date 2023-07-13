@@ -26,7 +26,7 @@ const Skills = () => {
         </p>
         <h2 className="py-4">What I Can Do</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Html} width="64px" height="64px" alt="/" />
@@ -36,7 +36,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Css} width="64px" height="64px" alt="/" />
@@ -46,7 +46,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Javascript} width="64px" height="64px" alt="/" />
@@ -56,7 +56,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={ReactImg} width="64px" height="64px" alt="/" />
@@ -66,7 +66,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={NextJS} width="64px" height="64px" alt="/" />
@@ -76,7 +76,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Tailwind} width="64px" height="64px" alt="/" />
@@ -86,7 +86,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Mui} width="64px" height="64px" alt="/" />
@@ -96,7 +96,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Firebase} width="64px" height="64px" alt="/" />
@@ -107,7 +107,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Express} width="64px" height="64px" alt="/" />
@@ -117,7 +117,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Node} width="64px" height="64px" alt="/" />
@@ -127,7 +127,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Npm} width="64px" height="64px" alt="/" />
@@ -137,7 +137,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Github} width="64px" height="64px" alt="/" />
@@ -147,7 +147,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Git} width="64px" height="64px" alt="/" />
@@ -157,7 +157,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Figma} width="64px" height="64px" alt="/" />
@@ -167,7 +167,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={AndroidStudio} width="64px" height="64px" alt="/" />
@@ -177,7 +177,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 bg-[#eceef3] shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="p-6 bg-[#eceef3] drop-shadow rounded-xl hover:drop-shadow-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Trello} width="64px" height="64px" alt="/" />
