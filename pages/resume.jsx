@@ -37,54 +37,28 @@ const resume = () => {
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
-              Mobile Development <span className="px-1">|</span> Web Development{' '}
-              <span className="px-1">|</span> Complex Problem Solving
+              Problem-Solving Expert <span className="px-1">|</span>Open-Minded
+              and Growth-Oriented<span className="px-1">|</span>Passionate about
+              Technology and Innovation
             </p>
           </div>
           <div className="block sm:hidden">
-            <p>Mobile Development</p>
-            <p className="py-2">Web Development</p>
-            <p>Complex Problem Solving</p>
+            <p>Problem-Solving Expert</p>
+            <p className="py-2">Open-Minded and Growth-Oriented</p>
+            <p>Passionate about Technology and Innovation</p>
           </div>
         </div>
         <p>
-          As a Software developer, I transitioned from tax and developed a
-          cross-platform mobile application for Harpia Sports, making their
-          hockey training program more accessible. In a team setting, I built a
-          MERN stack web application providing outdoor activity suggestions
-          based on weather conditions. I also developed a REST API that
-          functions as a command-line interface game using Express.
-        </p>
-        <p>
-          I excel in web development, mobile application development, and the
-          MERN stack. My expertise in troubleshooting and testing software has
-          enabled me to debug and improve code efficiency, achieving a
-          remarkable 40% decrease in system errors and a 20% increase in
-          software performance. Additionally, I integrated third-party APIs from
-          external applications into web platforms.
-        </p>
-        <p>
-          While on my career break, I pursued several online courses to enhance
-          my skills in web development and programming languages. I have
-          completed courses on HTML, CSS, JavaScript, and Python, and was able
-          to apply these skills to develop functional projects. Additionally, I
-          completed a project management professional development program and
-          opportunely implemented my learnings in managing successful projects.
-        </p>
-        <p>
-          Before my transition, I worked as a Tax Coordinator at Plains
-          Midstream Canada. There, I utilized data analytics to process and
-          monitor tax-related transactions, resulting in a 20% increase in
-          transaction accuracy. I conducted in-depth analysis and interpretation
-          of tax regulations, leading to a 15% reduction in tax-related errors
-          and penalties. Furthermore, I streamlined and improved tax processes
-          and procedures, resulting in a 30% increase in efficiency and saving
-          10 hours per week in manual labor. I maintained open communication by
-          presenting regular updates on audit status to tax auditors, resulting
-          in a 25% decrease in audit duration. Finally, I prepared written
-          responses or tax return amendments to resolve state and federal
-          notices, resulting in a 90% success rate in resolving tax issues
-          within the first attempt.
+          As a software developer, I excel in problem-solving, meticulously
+          focusing on the finer details. My commitment to continuous learning
+          keeps me updated on the latest technologies. Collaborating with a team
+          is my passion—I enjoy working as a team to achieve goals and support
+          one another. Effective communication and coordination across different
+          roles and functions ensure smooth collaboration. I thrive in dynamic
+          environments, adapting quickly to new challenges. With an open
+          mindset, I value feedback and enjoy learning from my peers. A fun and
+          supportive work environment energizes me, while a strong work ethic
+          ensures high-quality results.
         </p>
 
         {/* Skills */}
