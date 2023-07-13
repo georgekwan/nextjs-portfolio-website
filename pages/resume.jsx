@@ -92,16 +92,17 @@ const resume = () => {
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
           <p className="py-2">
             <span className="font-bold">Technical Skills</span>
-            <span className="px-2">|</span>Javascript
+            <span className="px-2">|</span>JavaScript
+            <span className="px-2">|</span>Python
             <span className="px-2">|</span>React Native
             <span className="px-2">|</span>Expo
             <span className="px-2">|</span>React
             <span className="px-2">|</span>Next JS
             <span className="px-2">|</span>CSS
+            <span className="px-2">|</span>Node JS
             <span className="px-2">|</span>Tailwind
             <span className="px-2">|</span>MongoDB
             <span className="px-2">|</span>Firebase
-            <span className="px-2">|</span>Express
           </p>
           <p className="py-2">
             <span className="font-bold">Certifications</span>
@@ -138,13 +139,56 @@ const resume = () => {
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
+            <span className="font-bold italic">NEW IDEA MACHINE</span>
+            <span className="px-2">▫</span>Calgary, AB
+          </p>
+          <p className="py-1 italic">
+            Mobile App Developer ▫ React Native | Expo - Internship (2023 -
+            Current)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Collaborated with a team to develop a mobile application to help
+              learners reinforce learning material by generating test questions
+              using AI.
+            </li>
+            <li>
+              Implemented user interfaces based on UX/UI designer
+              specifications, resulting in immersive and engaging learning
+              experiences.
+            </li>
+            <li>
+              Integrated two third-party libraries to improve app functionality
+              and user experience.
+            </li>
+            <li>
+              Troubleshoot and resolved software issues or bugs in a timely and
+              professional manner.
+            </li>
+            <li>
+              Collaborated on daily stand-ups, code reviews, and sprint
+              retrospectives using Agile methodologies.
+            </li>
+            <li>
+              Participated in support planning stages to define requirements,
+              scope, and deliverables.
+            </li>
+            <li>
+              Understand the technical aspects of requirements and provide
+              customized software solutions.
+            </li>
+          </ul>
+        </div>
+
+        <div className="py-6">
+          <p className="italic">
             <span className="font-bold italic">
               HARPIA SPORTS(INCEPTIONU INDUSTRY PARTNER)
             </span>
-            <span className="px-2">|</span>Calgary, AB
+            <span className="px-2">▫</span>Calgary, AB
           </p>
           <p className="py-1 italic">
-            Mobile App Developer | React Native | Expo | Firebase -
+            Mobile App Developer ▫ React Native | Expo | Firebase -
             Apprenticeship (2022 - 2023)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
@@ -181,10 +225,10 @@ const resume = () => {
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">INCEPTIONU</span>
-            <span className="px-2">|</span>Calgary, AB
+            <span className="px-2">▫</span>Calgary, AB
           </p>
           <p className="py-1 italic">
-            Full Stack Developer | MongoDB | Express | React | Node.js -
+            Full Stack Developer ▫ MongoDB | Express | React | Node.js -
             Apprenticeship (2022 - 2023)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
@@ -221,7 +265,7 @@ const resume = () => {
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">PROFESSIONAL DEVELOPMENT</span>
-            <span className="px-2">|</span>Calgary, AB
+            <span className="px-2">▫</span>Calgary, AB
           </p>
           <p className="py-1 italic">Career Break (2020 - 2022)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
@@ -245,10 +289,10 @@ const resume = () => {
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">PLAINS MIDSTREAM CANADA</span>
-            <span className="px-2">|</span>Calgary, AB
+            <span className="px-2">▫</span>Calgary, AB
           </p>
           <p className="py-1 italic">
-            Tax Coordinator | Fuel Tax | Terminal Operator | Sales & Use Tax
+            Tax Coordinator ▫ Fuel Tax | Terminal Operator | Sales & Use Tax
             (2008 - 2020)
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
