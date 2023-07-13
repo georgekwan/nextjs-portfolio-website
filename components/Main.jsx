@@ -59,7 +59,7 @@ const Main = () => {
               rel="noreferrer"
             >
               <div
-                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
+                className="rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
                 style={{ backgroundColor: '#eceef3' }}
               >
                 <FaLinkedinIn />
@@ -71,7 +71,7 @@ const Main = () => {
               rel="noreferrer"
             >
               <div
-                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
+                className="rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
                 style={{ backgroundColor: '#eceef3' }}
               >
                 <FaGithub />
@@ -79,7 +79,7 @@ const Main = () => {
             </a>
             <Link href="/#contact">
               <div
-                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
+                className="rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
                 style={{ backgroundColor: '#eceef3' }}
               >
                 <AiOutlineMail />
@@ -87,7 +87,7 @@ const Main = () => {
             </Link>
             <Link href="/resume">
               <div
-                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
+                className="rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
                 style={{ backgroundColor: '#eceef3' }}
               >
                 <BsFillPersonLinesFill />

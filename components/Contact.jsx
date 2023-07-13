@@ -145,7 +145,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 bg-[#eceef3] p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300">
+                    <div className="rounded-full shadow-md shadow-gray-400 bg-[#eceef3] p-6 cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:text-[#D6001C] ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
                   </a>
@@ -154,7 +154,7 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 bg-[#eceef3] p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300">
+                    <div className="rounded-full shadow-md shadow-gray-400 bg-[#eceef3] p-6 cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:text-[#D6001C] ease-in duration-300">
                       <FaGithub />
                     </div>
                   </a>
@@ -163,12 +163,12 @@ const Contact = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <div className="rounded-full shadow-lg shadow-gray-400 bg-[#eceef3] p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300">
+                    <div className="rounded-full shadow-md shadow-gray-400 bg-[#eceef3] p-6 cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:text-[#D6001C] ease-in duration-300">
                       <AiOutlineMail />
                     </div>
                   </a>
                   <Link href="/resume">
-                    <div className="rounded-full shadow-lg shadow-gray-400 bg-[#eceef3] p-6 cursor-pointer hover:scale-110 hover:text-[#D6001C] ease-in duration-300">
+                    <div className="rounded-full shadow-md shadow-gray-400 bg-[#eceef3] p-6 cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:text-[#D6001C] ease-in duration-300">
                       <BsFillPersonLinesFill />
                     </div>
                   </Link>
@@ -297,7 +297,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
-            <div className="rounded-full shadow-lg shadow-gray-400 bg-[#eceef3] p-4 cursor-pointer hover:scale-110  ease-in duration-300">
+            <div className="rounded-full drop-shadow-md shadow-gray-400 bg-[#eceef3] p-4 cursor-pointer hover:drop-shadow-xl hover:scale-110  ease-in duration-300">
               <HiOutlineChevronDoubleUp
                 className="text-[#1f2937] hover:text-[#D6001C]"
                 size={30}
