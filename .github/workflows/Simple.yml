@@ -32,3 +32,10 @@ jobs:
           sleep 5s;
           echo "Running Security Checks .. 3 "
           sleep 5s;
+  deploy:
+    name: Deployment
+    runs-on: ubuntu-latest
+    needs: [lintTest, securityCheck]
+    steps:
+      - name: Install Dependencies
+        run: echo "Deployment in Progress .. "
