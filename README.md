@@ -30,7 +30,8 @@ This project uses the following dependencies:
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next) for Next specific linting rules
 - [Next](https://nextjs.org/) as a framework for building server side rendered React applications
 - [React](https://reactjs.org/) as a JavaScript library for building user interfaces
-- [React DOM](https://reactjs.org/docs/react-dom) as a package that serves as the entry point of the DOM specific implementations of React - [React Icons](https://react-icons.netlify.com/#/) as an icon library with over 1500 icons from popular icon packs like Font Awesome, Material Design, and more
+- [React DOM](https://reactjs.org/docs/react-dom) as a package that serves as the entry point of the DOM specific implementations of React
+- [React Icons](https://react-icons.netlify.com/#/) as an icon library with over 1500 icons from popular icon packs like Font Awesome, Material Design, and more
 
 ## Dev Dependencies
 
