@@ -37,9 +37,8 @@ const resume = () => {
         <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
           <div className="hidden sm:block">
             <p>
-              Problem-Solving Expert <span className="px-1">|</span>Open-Minded
-              and Growth-Oriented<span className="px-1">|</span>Passionate about
-              Technology and Innovation
+              Strong work ethic <span className="px-1">|</span>Excellent problem
+              solver<span className="px-1">|</span>Effective communicator
             </p>
           </div>
           <div className="block sm:hidden">
@@ -48,17 +47,10 @@ const resume = () => {
             <p>Passionate about Technology and Innovation</p>
           </div>
         </div>
-        <p>
-          As a software developer, I excel in problem-solving, meticulously
-          focusing on the finer details. My commitment to continuous learning
-          keeps me updated on the latest technologies. Collaborating with a team
-          is my passion—I enjoy working as a team to achieve goals and support
-          one another. Effective communication and coordination across different
-          roles and functions ensure smooth collaboration. I thrive in dynamic
-          environments, adapting quickly to new challenges. With an open
-          mindset, I value feedback and enjoy learning from my peers. A fun and
-          supportive work environment energizes me, while a strong work ethic
-          ensures high-quality results.
+        <p className="text-center">
+          Proactive collaborator devoted to understanding perspectives and
+          fostering positivity to bring out excellence in teams. Skilled at
+          breaking down complex issues and thinking creatively.
         </p>
 
         {/* Skills */}
@@ -122,116 +114,29 @@ const resume = () => {
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Collaborated with a team to develop a mobile application to help
-              learners reinforce learning material by generating test questions
-              using AI.
+              Led a team to build an AI-based mobile app for learners, enhancing
+              knowledge retention.
             </li>
             <li>
-              Implemented user interfaces based on UX/UI designer
-              specifications, resulting in immersive and engaging learning
-              experiences.
+              Engineered user interfaces following UX/UI designer guidelines,
+              contributing to immersive learning interfaces.
             </li>
             <li>
-              Integrated two third-party libraries to improve app functionality
-              and user experience.
+              Expertly shielded users from software issues and bugs due to fast
+              and professional troubleshooting skills.
             </li>
             <li>
-              Troubleshoot and resolved software issues or bugs in a timely and
-              professional manner.
+              Adhered to Agile methodologies for daily stand-ups, code reviews,
+              and sprint retrospectives, enabling efficient project management.
             </li>
             <li>
-              Collaborated on daily stand-ups, code reviews, and sprint
-              retrospectives using Agile methodologies.
+              Took part in defining requirements, scope, and deliverables in
+              support planning stages
             </li>
             <li>
-              Participated in support planning stages to define requirements,
-              scope, and deliverables.
-            </li>
-            <li>
-              Understand the technical aspects of requirements and provide
-              customized software solutions.
-            </li>
-          </ul>
-        </div>
-
-        <div className="py-6">
-          <p className="italic">
-            <span className="font-bold italic">
-              HARPIA SPORTS(INCEPTIONU INDUSTRY PARTNER)
-            </span>
-            <span className="px-2">▫</span>Calgary, AB
-          </p>
-          <p className="py-1 italic">
-            Mobile App Developer ▫ React Native | Expo | Firebase -
-            Apprenticeship (2022 - 2023)
-          </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-              Created and implemented user interfaces tailored to hockey players
-              that integrated multi-sensory feedback, achieving 28/30 user
-              satisfaction and delivering immersive and engaging experiences
-              that delighted users.
-            </li>
-            <li>
-              Spearheaded the implementation of key product enhancements,
-              including data visualization features and bug fixes, based on
-              thirty user feedbacks. Resulted in a notable 20% boost in user
-              retention and satisfaction metrics.
-            </li>
-            <li>
-              Integrated APIs and two third-party libraries, such as Firebase,
-              React Native Dropdown Picker and React Native Gifted Charts to
-              improve app functionality and user experience.
-            </li>
-            <li>
-              Executed a software development cycle from requirements gathering
-              to deployment, delivering a mobile-based hockey training app that
-              met the client’s specifications and expectations within 2 months
-              of the timeline.
-            </li>
-            <li>
-              Collaborated on daily stand-ups, code reviews, and sprint
-              retrospectives using Agile methodologies.
-            </li>
-          </ul>
-        </div>
-
-        <div className="py-6">
-          <p className="italic">
-            <span className="font-bold italic">INCEPTIONU</span>
-            <span className="px-2">▫</span>Calgary, AB
-          </p>
-          <p className="py-1 italic">
-            Full Stack Developer ▫ MongoDB | Express | React | Node.js -
-            Apprenticeship (2022 - 2023)
-          </p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-              Built a MERN(MongoDB, Express, React, Node.js) stack web
-              application in a team of three settings to provide outdoor
-              activity suggestions based on weather conditions.
-            </li>
-            <li>
-              Integrated third-party APIs from external applications into web
-              platforms to produce accurate weather data with a 95% uptime.
-            </li>
-            <li>
-              Reduced system errors by 40% and increased software performance by
-              20% by troubleshooting, testing, and debugging software to clean
-              up code and improve efficiency.
-            </li>
-            <li>
-              Developed a REST API that functions as a command-line interface
-              game using Express.
-            </li>
-            <li>
-              Advocated project management best practices to the team; Resulting
-              in a 15% reduction in project delays and a 20% increase in the
-              project completion rate.
-            </li>
-            <li>
-              Improved team communication by implementing a Gantt chart and
-              Kanban board, resulting in 2 days reduction in project completion.
+              Empowered junior staff through personalized mentorship, fostering
+              their React Native expertise, Scrum process understanding, and
+              professional growth.
             </li>
           </ul>
         </div>
@@ -241,21 +146,32 @@ const resume = () => {
             <span className="font-bold italic">PROFESSIONAL DEVELOPMENT</span>
             <span className="px-2">▫</span>Calgary, AB
           </p>
-          <p className="py-1 italic">Career Break (2020 - 2022)</p>
+          <p className="py-1 italic">Career Break (2020 - Current)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Completed several online courses on web development and
-              programming languages, such as HTML, CSS, JavaScript, and Python.
+              Co-developed a mobile app for Harpia Sports, promoting access to
+              their training program.
             </li>
             <li>
-              Successfully completed project management professional development
-              programs.
+              Graduated from a comprehensive full-stack development program,
+              acquiring expertise in MERN stack and collaboratively working in a
+              software development team.
             </li>
             <li>
-              Completed Microsoft Certified: Dynamics 365 Fundamentals (ERP).
+              Continuously upgraded knowledge in software development and
+              front-end technologies via online courses.
             </li>
             <li>
-              Participated as a volunteer with a non-governmental organization
+              Remained current with the latest front-end development trends and
+              technologies.
+            </li>
+            <li>
+              Certified Associate in Project Management (CAPM) from the Project
+              Management Institute.
+            </li>
+            <li>
+              Familiarized with Agile software development methodologies and Git
+              version control.
             </li>
           </ul>
         </div>
@@ -302,6 +218,10 @@ const resume = () => {
               Maintained open communication by presenting regular updates on
               audit status to tax auditors, resulting in decrease of 5 days in
               audit duration.
+            </li>
+            <li>
+              Coached junior staff one-on-one to develop their tax knowledge,
+              fostering their growth.
             </li>
           </ul>
         </div>
