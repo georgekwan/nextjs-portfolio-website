@@ -1,9 +1,8 @@
-import React from 'react';
 import Link from 'next/link';
-import { TypeAnimation } from 'react-type-animation';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { TypeAnimation } from 'react-type-animation';
 
 const Main = () => {
   return (

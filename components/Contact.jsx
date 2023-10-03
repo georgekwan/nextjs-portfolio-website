@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { toast } from 'react-toastify';
 
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { AiOutlineMail } from 'react-icons/ai';
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '@/public/assets/contact.jpg';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 const Contact = () => {
   // States for contact form fields

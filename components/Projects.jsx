@@ -1,10 +1,7 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
 import funactiveImg from '../public/assets/projects/funactive.png';
-import threeJSIntroImg from '../public/assets/projects/threeJS-intro.png';
-import housemarketplaceImg from '../public/assets/projects/house-marketplace.png';
 import githubfinderImg from '../public/assets/projects/github-finder.png';
+import housemarketplaceImg from '../public/assets/projects/house-marketplace.png';
+import threeJSIntroImg from '../public/assets/projects/threeJS-intro.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
