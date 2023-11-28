@@ -102,6 +102,48 @@ const resume = () => {
           Professional Experience
         </h5>
         {/* Experience */}
+
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">
+              GATEWAY ASSOCIATION ALBERTA
+            </span>
+            <span className="px-2">▫</span>Calgary, AB
+          </p>
+          <p className="py-1 italic">Website Manager (2023 - Current)</p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li>
+              Maintained the integrity of the nonprofit website through
+              continuous updates, ensuring smooth site functionality.
+            </li>
+            <li>
+              Handled content and design updates using WordPress for live sites.
+            </li>
+            <li>
+              Reviewed and optimized client websites for enhanced performance
+              and scalability.
+            </li>
+            <li>
+              Optimized SEO and metadata, utilizing logical internal website
+              page linking to improve search engine visibility.
+            </li>
+            <li>
+              Collaborated with the community & engagement team to brainstorm
+              innovative solutions after carefully evaluating feedback.
+            </li>
+            <li>
+              Tweaked website features to effectively accommodate user needs.
+            </li>
+            <li>
+              Identified potential site issues and implemented prompt solutions.
+            </li>
+            <li>
+              Assisted the marketing team in creating a realistic solution
+              pipeline, advising on timelines and best practices.
+            </li>
+          </ul>
+        </div>
+
         <div className="py-6">
           <p className="italic">
             <span className="font-bold italic">NEW IDEA MACHINE</span>
@@ -113,29 +155,31 @@ const resume = () => {
           </p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Led a team to build an AI-based mobile app for learners, enhancing
-              knowledge retention.
+              Built immersive mobile interfaces leveraging JavaScript and React
+              Native as an Intern, mentoring others
             </li>
             <li>
-              Engineered user interfaces following UX/UI designer guidelines,
-              contributing to immersive learning interfaces.
+              Implemented reusable code components streamlining development
+              workflow
             </li>
             <li>
-              Expertly shielded users from software issues and bugs due to fast
-              and professional troubleshooting skills.
+              Applied source control through a monorepo and version tools like
+              Git and GitHub
             </li>
             <li>
-              Adhered to Agile methodologies for daily stand-ups, code reviews,
-              and sprint retrospectives, enabling efficient project management.
+              Collaborated cross-functionally using Agile practices like daily
+              stand-ups
             </li>
             <li>
-              Took part in defining requirements, scope, and deliverables in
-              support planning stages
+              Resolved bugs efficiently through technical troubleshooting skills
             </li>
             <li>
-              Empowered junior staff through personalized mentorship, fostering
-              their React Native expertise, Scrum process understanding, and
-              professional growth.
+              Developed understanding of requirements, and scope through
+              participation in planning
+            </li>
+            <li>
+              Demonstrated adaptability coordinating complex projects in intern
+              roles
             </li>
           </ul>
         </div>
