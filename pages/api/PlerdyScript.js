@@ -2,8 +2,8 @@ export default function PlerdyScript() {
   // Adding the Plerdy tracking code within the function
   var _protocol =
     'https:' == document.location.protocol ? ' https://' : ' http://';
-  _site_hash_code = 'dcb0945445500bc3511a17726f';
-  _suid = 34512;
+  const _site_hash_code = '64deaadeed87b36a303f733fdf231835';
+  const _suid = 45702;
   var plerdyScript = document.createElement('script');
   plerdyScript.setAttribute('defer', '');
   plerdyScript.dataset.plerdymainscript = 'plerdymainscript';
