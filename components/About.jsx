@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
+import AboutImg from '../public/assets/about.webp';
 
 const About = () => {
   return (
