@@ -1,7 +1,7 @@
-import funactiveImg from '../public/assets/projects/funactive.png';
-import githubfinderImg from '../public/assets/projects/github-finder.png';
-import housemarketplaceImg from '../public/assets/projects/house-marketplace.png';
-import threeJSIntroImg from '../public/assets/projects/threeJS-intro.png';
+import funactiveImg from '../public/assets/projects/funactive.webp';
+import githubfinderImg from '../public/assets/projects/github-finder.webp';
+import housemarketplaceImg from '../public/assets/projects/house-marketplace.webp';
+import threeJSIntroImg from '../public/assets/projects/threeJS-intro.webp';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
