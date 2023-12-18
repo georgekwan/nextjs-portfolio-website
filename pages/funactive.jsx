@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
 
-import funactiveImg from '@/public/assets/projects/funactive.png';
+import funactiveImg from '@/public/assets/projects/funactive.webp';
 
 const funactive = () => {
   return (

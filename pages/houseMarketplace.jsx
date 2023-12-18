@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
 
-import housemarketplaceImg from '@/public/assets/projects/house-marketplace.png';
+import housemarketplaceImg from '@/public/assets/projects/house-marketplace.webp';
 
 const houseMarketplace = () => {
   return (

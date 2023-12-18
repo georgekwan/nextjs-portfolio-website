@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
 
-import githubfinderImg from '@/public/assets/projects/github-finder.png';
+import githubfinderImg from '@/public/assets/projects/github-finder.webp';
 
 const githubFinder = () => {
   return (

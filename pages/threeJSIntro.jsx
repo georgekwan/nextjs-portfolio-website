@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { RiRadioButtonFill } from 'react-icons/ri';
 
-import threeJSIntroImg from '@/public/assets/projects/threeJS-intro.png';
+import threeJSIntroImg from '@/public/assets/projects/threeJS-intro.webp';
 
 const threeJSIntro = () => {
   return (
