@@ -66,22 +66,40 @@ const NavBar = () => {
         </Link>
         <div>
           <ul className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#D6001C]">
+            <li
+              id="home"
+              className="ml-10 text-sm uppercase hover:border-b hover:text-[#D6001C]"
+            >
               <Link href="/">Home</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#D6001C]">
+            <li
+              id="about"
+              className="ml-10 text-sm uppercase hover:border-b hover:text-[#D6001C]"
+            >
               <Link href="/#about">About</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#D6001C]">
+            <li
+              id="skills"
+              className="ml-10 text-sm uppercase hover:border-b hover:text-[#D6001C]"
+            >
               <Link href="/#skills">Skills</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#D6001C]">
+            <li
+              id="projects"
+              className="ml-10 text-sm uppercase hover:border-b hover:text-[#D6001C]"
+            >
               <Link href="/#projects">Projects</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#D6001C]">
+            <li
+              id="resume"
+              className="ml-10 text-sm uppercase hover:border-b hover:text-[#D6001C]"
+            >
               <Link href="/resume">Resume</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b hover:text-[#D6001C]">
+            <li
+              id="contact"
+              className="ml-10 text-sm uppercase hover:border-b hover:text-[#D6001C]"
+            >
               <Link href="/#contact">Contact</Link>
             </li>
           </ul>
