@@ -7,12 +7,18 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import NavLogo from '../public/fav.gif';
 
+import PlerdyScript from '@/pages/api/PlerdyScript';
+
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState('#ecf0f3');
   const [linkColor, setLinkColor] = useState('#1f2937');
   const router = useRouter();
+
+  useEffect(() => {
+    PlerdyScript();
+  }, []);
 
   // Transparent only in project page
   useEffect(() => {
