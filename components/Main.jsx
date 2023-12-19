@@ -5,12 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 
-import PlerdyScript from '@/pages/api/PlerdyScript';
-
 const Main = () => {
-  useEffect(() => {
-    PlerdyScript();
-  }, []);
   return (
     <div id="home" className="w-full h-screen text-center mx-2">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
