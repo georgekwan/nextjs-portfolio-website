@@ -8,7 +8,11 @@ import '@/styles/globals.css';
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Script src="./api/PlerdyScript.js" />
+      <Script
+        id="Plerdy"
+        strategy="afterInteractive"
+        src="./api/PlerdyScript.js"
+      />
       <NavBar />
       <Component {...pageProps} />
       <ToastContainer autoClose={3000} theme="colored" />
