@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Script id="Plerdy" strategy="afterInteractive">
         {`
-      function PlerdyScript() {
+
   const _protocol =
     'https:' == document.location.protocol ? 'https://' : 'http://';
   _site_hash_code = '64deaadeed87b36a303f733fdf231835';
@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }) {
   } catch (error) {
     console.log(error, 'unable to add script tag');
   }
-}
+
       `}
       </Script>
       <NavBar />
