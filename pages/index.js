@@ -5,7 +5,12 @@ import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
 
+import PlerdyScript from './api/PlerdyScript';
+
 export default function Home() {
+  useEffect(() => {
+    PlerdyScript();
+  }, []);
   return (
     <>
       <Head>
