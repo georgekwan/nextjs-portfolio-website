@@ -132,32 +132,56 @@ const NavBar = () => {
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li
+                  id="home"
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                >
                   Home
                 </li>
               </Link>
               <Link href="/#about">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li
+                  id="about"
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                >
                   About
                 </li>
               </Link>
               <Link href="/#skills">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li
+                  id="skills"
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                >
                   Skills
                 </li>
               </Link>
               <Link href="/#projects">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li
+                  id="projects"
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                >
                   Projects
                 </li>
               </Link>
               <Link href="/resume">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li
+                  id="resume"
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                >
                   Resume
                 </li>
               </Link>
               <Link href="/#contact">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li
+                  id="contact"
+                  onClick={() => setNav(false)}
+                  className="py-4 text-sm"
+                >
                   Contact
                 </li>
               </Link>
