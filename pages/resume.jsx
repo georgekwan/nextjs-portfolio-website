@@ -25,6 +25,7 @@ const resume = () => {
               href="https://www.linkedin.com/in/george-kwan/"
               target="_blank"
               rel="noreferrer"
+              aria-label="LinkedIn Profile"
             >
               <FaLinkedinIn size={25} className="mr-2 hover:text-[#D6001C]" />
             </a>
@@ -32,6 +33,7 @@ const resume = () => {
               href="https://georgekwan.netlify.app/"
               target="_blank"
               rel="noreferrer"
+              aria-label="GitHub Profile"
             >
               <FaGithub size={25} className="mr-2 hover:text-[#D6001C]" />
             </a>
