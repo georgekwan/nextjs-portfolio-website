@@ -8,14 +8,18 @@ const resume = () => {
         <title>George | Resume</title>
         <meta
           name="description"
-          content="I am a Software Developer specializing in seamless web and mobile experiences."
+          content="George Kwan is a highly skilled developer with expertise in JavaScript, Python, React Native, and more. With a strong work ethic and excellent problem-solving abilities, George is dedicated to creating innovative solutions and fostering positive collaboration. Explore George's resume to learn more."
         />
+        <meta
+          name="keywords"
+          content="developer, JavaScript, Python, React Native, Expo, React, Next JS, CSS, Node JS, Tailwind, MongoDB, Firebase"
+        ></meta>
         <link rel="icon" href="/fav.png" />
       </Head>
       <div className="p-5">
         <h2 className="text-center">Resume</h2>
         <div className="bg-[#d0d4d6] my-10 p-1 w-full flex justify-between items-center">
-          <h2 className="text-center ml-2">George Kwan</h2>
+          <h1 className="text-center ml-2">George Kwan</h1>
           <div className="flex">
             <a
               href="https://www.linkedin.com/in/george-kwan/"
