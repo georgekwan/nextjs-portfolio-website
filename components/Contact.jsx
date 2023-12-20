@@ -144,6 +144,7 @@ const Contact = () => {
                     href="https://www.linkedin.com/in/george-kwan/"
                     target="_blank"
                     rel="noreferrer"
+                    aria-label="LinkedIn Profile"
                   >
                     <div
                       id="linkedin"
@@ -156,6 +157,7 @@ const Contact = () => {
                     href="https://georgekwan.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
+                    aria-label="GitHub Profile"
                   >
                     <div
                       id="github"
@@ -168,6 +170,7 @@ const Contact = () => {
                     href="mailto:gwmkwan@gmail.com"
                     target="_blank"
                     rel="noreferrer"
+                    aria-label="Email"
                   >
                     <div
                       id="email"
@@ -180,6 +183,7 @@ const Contact = () => {
                     <div
                       id="resume"
                       className="rounded-full shadow-md shadow-gray-400 bg-[#eceef3] p-6 cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
+                      aria-label="Resume"
                     >
                       <BsFillPersonLinesFill />
                     </div>
@@ -214,7 +218,7 @@ const Contact = () => {
                     )}
                   </div>
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">
+                    <label htmlFor="phone" className="uppercase text-sm py-2">
                       Phone Number
                     </label>
                     <input
