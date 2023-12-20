@@ -211,6 +211,7 @@ const Contact = () => {
                         setFullname(e.target.value);
                       }}
                       name="fullname"
+                      id="fullname"
                     />
                     {errors?.fullname && (
                       <p className="text-red-500">Full name cannot be empty.</p>
@@ -228,6 +229,7 @@ const Contact = () => {
                       onChange={(e) => {
                         setPhone(e.target.value);
                       }}
+                      id="phone"
                     />
                     {errors?.phone && (
                       <p className="text-red-500">
@@ -248,6 +250,7 @@ const Contact = () => {
                     onChange={(e) => {
                       setEmail(e.target.value);
                     }}
+                    id="email"
                   />
                   {errors?.email && (
                     <p className="text-red-500">Email cannot be empty.</p>
@@ -265,6 +268,7 @@ const Contact = () => {
                     onChange={(e) => {
                       setSubject(e.target.value);
                     }}
+                    id="subject"
                   />
                   {errors?.subject && (
                     <p className="text-red-500">Subject cannot be empty.</p>
@@ -282,6 +286,7 @@ const Contact = () => {
                     onChange={(e) => {
                       setMessage(e.target.value);
                     }}
+                    id="message"
                   ></textarea>
                   {errors?.message && (
                     <p className="text-red-500">
