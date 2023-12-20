@@ -214,7 +214,7 @@ const Contact = () => {
                     )}
                   </div>
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">
+                    <label htmlFor="phone" className="uppercase text-sm py-2">
                       Phone Number
                     </label>
                     <input
