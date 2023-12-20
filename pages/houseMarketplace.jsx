@@ -41,6 +41,7 @@ const houseMarketplace = () => {
             href="https://github.com/georgekwan/house-marketplace"
             target="_blank"
             rel="noreferrer"
+            aria-label="House Marketplace"
           >
             <button className="px-8 py-2 mt-4">Code</button>
           </a>

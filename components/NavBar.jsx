@@ -213,15 +213,17 @@ const NavBar = () => {
                   href="https://www.linkedin.com/in/george-kwan/"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="LinkedIn Profile"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 bg-[#eceef3] p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaLinkedinIn />
                   </div>
                 </a>
                 <a
-                  href="https://github.com/georgekwan"
+                  href="https://georgekwan.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="GitHub Profile"
                 >
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 bg-[#eceef3] cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub />

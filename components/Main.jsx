@@ -57,6 +57,7 @@ const Main = () => {
               href="https://www.linkedin.com/in/george-kwan/"
               target="_blank"
               rel="noreferrer"
+              aria-label="LinkedIn Profile"
             >
               <div
                 className="rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:text-[#D6001C] ease-in duration-300"

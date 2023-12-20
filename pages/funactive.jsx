@@ -41,6 +41,7 @@ const funactive = () => {
             href="https://github.com/Gabriel-Dalmoro/project-2"
             target="_blank"
             rel="noreferrer"
+            aria-label="Funactive"
           >
             <button className="px-8 py-2 mt-4">Code</button>
           </a>

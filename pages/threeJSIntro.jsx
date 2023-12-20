@@ -39,6 +39,7 @@ const threeJSIntro = () => {
             href="https://github.com/georgekwan/threejs-intro"
             target="_blank"
             rel="noreferrer"
+            aria-label="Three JS Landing Page"
           >
             <button className="px-8 py-2 mt-4">Code</button>
           </a>
