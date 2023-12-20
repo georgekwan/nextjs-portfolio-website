@@ -5,7 +5,7 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>George | Resume</title>
+        <title>George Kwan - Developer | Resume</title>
         <meta
           name="description"
           content="George Kwan is a highly skilled developer with expertise in JavaScript, Python, React Native, and more. With a strong work ethic and excellent problem-solving abilities, George is dedicated to creating innovative solutions and fostering positive collaboration. Explore George's resume to learn more."
