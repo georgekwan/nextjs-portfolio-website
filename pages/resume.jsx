@@ -13,7 +13,7 @@ const resume = () => {
         <meta
           name="keywords"
           content="developer, JavaScript, Python, React Native, Expo, React, Next JS, CSS, Node JS, Tailwind, MongoDB, Firebase"
-        ></meta>
+        />
         <link rel="icon" href="/fav.png" />
       </Head>
       <div className="p-5">
