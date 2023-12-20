@@ -183,7 +183,6 @@ const Contact = () => {
                     <div
                       id="resume"
                       className="rounded-full shadow-md shadow-gray-400 bg-[#eceef3] p-6 cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
-                      aria-label="Resume"
                     >
                       <BsFillPersonLinesFill />
                     </div>
