@@ -52,7 +52,10 @@ const Main = () => {
             it&apos;s coding or life in general, I approach it with curiosity
             and a desire to learn.
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+          <div
+            id="linkedin"
+            className="flex items-center justify-between max-w-[330px] m-auto py-4"
+          >
             <a
               href="https://www.linkedin.com/in/george-kwan/"
               target="_blank"
@@ -72,6 +75,7 @@ const Main = () => {
               rel="noreferrer"
             >
               <div
+                id="github"
                 className="rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
                 style={{ backgroundColor: '#eceef3' }}
               >
@@ -80,6 +84,7 @@ const Main = () => {
             </a>
             <Link href="/#contact">
               <div
+                id="contact"
                 className="rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
                 style={{ backgroundColor: '#eceef3' }}
               >
@@ -88,6 +93,7 @@ const Main = () => {
             </Link>
             <Link href="/resume">
               <div
+                id="resume"
                 className="rounded-full shadow-md shadow-gray-400 p-6 cursor-pointer hover:drop-shadow-lg hover:scale-110 hover:text-[#D6001C] ease-in duration-300"
                 style={{ backgroundColor: '#eceef3' }}
               >
