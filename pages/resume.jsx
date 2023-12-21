@@ -17,9 +17,9 @@ const resume = () => {
         <link rel="icon" href="/fav.png" />
       </Head>
       <div className="p-5">
-        <h2 className="text-center">Resume</h2>
+        <h1 className="text-center">Resume</h1>
         <div className="bg-[#d0d4d6] my-10 p-1 w-full flex justify-between items-center">
-          <h1 className="text-center ml-2">George Kwan</h1>
+          <h2 className="text-center ml-2">George Kwan</h2>
           <div className="flex">
             <a
               href="https://www.linkedin.com/in/george-kwan/"
