@@ -32,6 +32,7 @@ const threeJSIntro = () => {
             href="https://georgekwan.netlify.app/"
             target="_blank"
             rel="noreferrer"
+            aria-label="GitHub Profile"
           >
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
