@@ -129,12 +129,20 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">George Kwan</h2>
-                <p>Software Developer</p>
+                <p style={{ fontWeight: 'bold' }}>
+                  Software Developer | Website Management | Mobile App
+                  Development | SEO Optimization
+                </p>
                 <p>
-                  I am available for freelance, contract, or full-time
-                  positions. Let&apos;s connect and discuss your software
-                  development needs. I&apos;m passionate about delivering
-                  exceptional solutions that meet the needs of my clients.
+                  I am a skilled professional with experience in software
+                  development, website management, mobile app development, and
+                  SEO optimization. I can handle different projects and provide
+                  tailored solutions for clients. Whether you need a freelancer,
+                  contractor, or full-time professional, I am available to
+                  discuss your software development needs. My focus is on
+                  creating innovative and efficient solutions for business
+                  success. Let&apos;s connect and see how I can help you reach
+                  your goals.
                 </p>
               </div>
               <div>
