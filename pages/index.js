@@ -11,12 +11,12 @@ export default function Home() {
     <>
       <Head>
         <title>
-          George Kwan | Software Developer Specializing in Website Management,
-          Mobile App Development, and SEO Optimization
+          George Kwan | Software Developer | Website Management | Mobile App
+          Development | SEO Optimization
         </title>
         <meta
           name="description"
-          content="I am a skilled software developer with expertise in website management, mobile app development, and SEO optimization. With experience as a Website Manager at Gateway Association Alberta, I have successfully maintained nonprofit websites by ensuring smooth functionality and implementing continuous updates. As a Mobile App Developer at New Idea Machine, I have built immersive mobile interfaces using JavaScript and React Native, while also mentoring others. My proficiency in optimizing SEO and metadata, as well as my ability to collaborate cross-functionally and resolve bugs efficiently, make me a valuable asset to any software development team."
+          content="I am a skilled software developer specializing in website management, mobile app development, and SEO optimization. With experience as a Website Manager at Gateway Association Alberta, I have successfully maintained nonprofit websites by ensuring smooth functionality and implementing continuous updates. As a Mobile App Developer at New Idea Machine, I have built immersive mobile interfaces using JavaScript and React Native, while also mentoring others. My proficiency in optimizing SEO and metadata, as well as my ability to collaborate cross-functionally and efficiently resolve bugs, make me a valuable asset to any software development team."
         />
         <link rel="icon" href="/fav.png" />
       </Head>
