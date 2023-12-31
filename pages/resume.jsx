@@ -119,33 +119,30 @@ const resume = () => {
           <p className="py-1 italic">Website Manager (2023 - Current)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Maintained the integrity of the nonprofit website through
-              continuous updates, ensuring smooth site functionality.
+              Conduct data analysis and reporting using web analytics tools to
+              identify areas of opportunity, generate regular reports, and
+              provide actionable insights to the marketing and communication
+              team.
             </li>
             <li>
-              Handled content and design updates using WordPress for live sites.
+              Review and optimize client websites for better performance and
+              scalability.
             </li>
             <li>
-              Reviewed and optimized client websites for enhanced performance
-              and scalability.
+              Utilize SEO best practices to drive traffic and improve search
+              engine rankings.
             </li>
             <li>
-              Optimized SEO and metadata, utilizing logical internal website
-              page linking to improve search engine visibility.
+              Implement data-tracking mechanisms to measure marketing campaign
+              effectiveness and website performance.
             </li>
             <li>
-              Collaborated with the community & engagement team to brainstorm
-              innovative solutions after carefully evaluating feedback.
+              Collaborate with the marketing and communication teams to align
+              the website with organizational goals and campaigns.
             </li>
             <li>
-              Tweaked website features to effectively accommodate user needs.
-            </li>
-            <li>
-              Identified potential site issues and implemented prompt solutions.
-            </li>
-            <li>
-              Assisted the marketing team in creating a realistic solution
-              pipeline, advising on timelines and best practices.
+              Ensure website(s) accessibility according to Web Content
+              Accessibility Guidelines (WCAG) international standards.
             </li>
           </ul>
         </div>
