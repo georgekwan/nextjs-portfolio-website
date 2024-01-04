@@ -139,10 +139,10 @@ const Contact = () => {
                   optimization. I can handle different projects and provide
                   tailored solutions for clients. Whether you need a freelancer,
                   contractor, or full-time professional, I am available to
-                  discuss your software development needs. My focus is on
-                  creating innovative and efficient solutions for business
-                  success. Let&apos;s connect and see how I can help you reach
-                  your goals.
+                  discuss your business needs. My focus is on creating
+                  innovative and efficient solutions for business success.
+                  Let&apos;s connect and see how I can help you reach your
+                  goals.
                 </p>
               </div>
               <div>
