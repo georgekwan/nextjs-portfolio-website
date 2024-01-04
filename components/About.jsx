@@ -15,7 +15,7 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-[#334756]">
-            Hey there, I&apos;m George and I&apos;m a software developer with a
+            Hey there, I&apos;m George and I&apos;m someone with a
             passion for taking on challenges. I embrace every opportunity that
             comes my way and love to follow my curiosity wherever it leads me.
             My background in tax has helped me to develop strong analytical

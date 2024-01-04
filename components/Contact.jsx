@@ -130,13 +130,13 @@ const Contact = () => {
               <div>
                 <h2 className="py-2">George Kwan</h2>
                 <p style={{ fontWeight: 'bold' }}>
-                  Software Developer | Website Management | Mobile App
-                  Development | SEO Optimization
+                  Website Management | Web & Mobile App Development | SEO
+                  Optimization
                 </p>
                 <p>
-                  I am a skilled professional with experience in software
-                  development, website management, mobile app development, and
-                  SEO optimization. I can handle different projects and provide
+                  I am a skilled professional with experience in website
+                  management, web & mobile app development, and SEO
+                  optimization. I can handle different projects and provide
                   tailored solutions for clients. Whether you need a freelancer,
                   contractor, or full-time professional, I am available to
                   discuss your software development needs. My focus is on
