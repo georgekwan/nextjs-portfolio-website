@@ -9,6 +9,7 @@ export default function Document() {
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2987556127489545"
           crossorigin="anonymous"
+          strategy="lazyOnload"
         />
       </Head>
       <body>
