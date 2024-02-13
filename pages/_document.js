@@ -5,9 +5,9 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <script
-          data-ad-client="ca-pub-2987556127489545"
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2987556127489545"
+          crossorigin="anonymous"
         ></script>
       </Head>
       <body>

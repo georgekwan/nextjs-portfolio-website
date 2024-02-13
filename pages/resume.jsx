@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import AdSense from '@/components/AdSense';
 
 const resume = () => {
   return (
@@ -14,6 +15,7 @@ const resume = () => {
           name="keywords"
           content="developer, JavaScript, Python, React Native, Expo, React, Next JS, CSS, Node JS, Tailwind, MongoDB, Firebase"
         />
+        <meta name="google-adsense-account" content="ca-pub-2987556127489545" />
         <link rel="icon" href="/fav.png" />
       </Head>
       <div className="p-5">
@@ -272,6 +274,7 @@ const resume = () => {
           </ul>
         </div>
       </div>
+      {/* <AdSense adSlot="ca-pub-2987556127489545" /> */}
     </>
   );
 };
