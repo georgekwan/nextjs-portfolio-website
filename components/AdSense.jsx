@@ -14,6 +14,8 @@ const AdSense = (props) => {
       className="adsbygoogle adbanner-customize"
       style={{ display: 'block' }}
       data-ad-client="ca-pub-2987556127489545"
+      data-ad-format="auto"
+      data-full-width-responsive="true"
       {...props}
     />
   );
