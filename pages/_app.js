@@ -8,6 +8,12 @@ import '@/styles/globals.css';
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <Script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2987556127489545"
+        crossorigin="anonymous"
+        strategy="lazyOnload"
+      />
       <Script id="Plerdy" strategy="afterInteractive">
         {`
 
